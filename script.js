@@ -7,14 +7,14 @@ document.getElementById("nameForm").addEventListener("submit", function (event) 
     if (nameInput) {
       // Predefined compliments (keys in lowercase for case-insensitivity)
       const compliments = {
-        tushar: "You Are Randi",
-        rohit: "You are RohitR",
-        harsh: "You are Gutta Badmosh",
-        gaurav: "You are Nice Good Man",
+        tushar: "",
+        rohit: "",
+        harsh: "oo it wale oo bhosdi wale",
+        gaurav: "You are Nice Gendu",
         shaurya: "You are Tinku Badmosh",
-        aditya: "Chutiya ho tum",
-        samyak: "You are darker than buffalo",
-        siddhant: "You are a hero",
+        aditya: "aree yaar wo toh rand hai",
+        samyak: "juice pilado masuambi ka",
+        siddhant: "feku , bidhau , chandu , jaldi , jaldi , jaldi",
       };
   
       // Normalize input to lowercase
@@ -22,7 +22,7 @@ document.getElementById("nameForm").addEventListener("submit", function (event) 
   
       // Check if the name exists in the compliments object
       const message =
-        compliments[normalizedInput] || `Hello ${nameInput}, you are special!`;
+        compliments[normalizedInput] || `Hello ${nameInput}, you are not in the list , go back to pakistan.`;
   
       // Display the message
       outputDiv.textContent = message;
