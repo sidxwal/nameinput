@@ -8,7 +8,7 @@ document.getElementById("nameForm").addEventListener("submit", function (event) 
       // Predefined compliments (keys in lowercase for case-insensitivity)
       const compliments = {
         tushar: "",
-        rohit: "rohit",
+        rohit: "you are rohit",
         harsh: "oo it wale oo bhosdi wale",
         gaurav: "You are Nice Gendu",
         shaurya: "You are Tinku Badmosh",
