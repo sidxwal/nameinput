@@ -8,13 +8,13 @@ document.getElementById("nameForm").addEventListener("submit", function (event) 
       // Predefined compliments (keys in lowercase for case-insensitivity)
       const compliments = {
         tushar: "",
-        rohit: "you are rohit ❤️d",
+        rohit: "Tu asli haathi ka dant hai, dekhne mein acha, kaam mein zero!",
         harsh: "oo it wale oo bhosdi wale",
         gaurav: "You are Nice Gendu",
-        shaurya: "You are Tinku Badmosh",
+        shaurya: "Teri toh aakhn kabhi khulti hi nahi h, hmesha sota rhta h",
         aditya: "aree yaar wo toh rand hai",
         samyak: "juice pilado mausambi ka",
-        siddhant: "feku , bidhau , chandu , jaldi , jaldi , jaldi",
+        siddhant: "Feku master, tera naatak toh world-famous hai!",
       };
   
       // Normalize input to lowercase
